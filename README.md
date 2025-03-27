@@ -11,7 +11,7 @@ Multi-modal Large Langue Models (MLLMs) often process thousands of visual tokens
 
 ## 🪜 Updates
 
-- [2024-03-26]: 🎉🎉 Our [Paper](https://arxiv.org/abs/2503.20540) is available on Arxiv.
+- [2025-03-26]: 🎉🎉 Our [Paper](https://arxiv.org/abs/2503.20540) is available on Arxiv.
 
 ## 🖼️ Method Overview
 
