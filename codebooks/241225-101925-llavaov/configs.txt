@@ -1,0 +1,14 @@
+top1_prob_thres = 0.08  # TODO
+    cluster_nums = 8  # TODO
+    head_vocab_topk = 50  # TODO
+    cluster_size_thres = 3  # TODO
+    # interested_sample_id = '520208'  # TODO
+    use_jsd_thres = True  # TODO
+    prototype_cluster_nums = 24 # TODO
+    prototype_min_unique_sample_thres = 16  # TODO
+    if use_jsd_thres:
+        jsd_result_file_name_context = data_root + '241223-143539-results/check_jsd-llavaov-fix_sim_context_tgt_patch_vs_fix_sim_context_pad_patch_all_patch-223137-151008-134243-195516_topk-10_result.jsonl'  # TODO
+        jsd_result_file_name_global = data_root + '241223-143743-results/check_jsd-llavaov-fix_sim_ablate_context_tgt_patch_vs_global_all_patch-103953-021407-103953-021407_topk-10_result.jsonl'  # TODO
+        jsd_value_thres = 1.8e-3  # TODO
+        k_context = 1  # TODO
+        k_global = 16  # TODO
