@@ -36,7 +36,7 @@ Multi-modal Large Langue Models (MLLMs) often process thousands of visual tokens
 
 - The core implementation of our method is in `LLaVA_NeXT/llava/model/llava_arch.py` and `LLaVA_NeXT/llava/model/multimodal_encoder/clip_encoder.py`. You may simply put these two files in your working directory to use the redundancy codebook during inference.
 
-    - NOTE: Please add the extra fileds in `model_configs/llama3-llava-next-8b/config.json` to the config file in your model path, set `toxic_codebook_path` to the codebook path to load, and set `toxic_codebook_thres` to control the number of retained visual tokens (lower value results in fewer visual tokens).
+    - NOTE: Please add the extra fileds in `model_configs/llama3-llava-next-8b/config.json` to the config file in your model path, set `toxic_codebook_path` to the codebook path to be loaded, and set `toxic_codebook_thres` to control the number of retained visual tokens (lower value results in fewer visual tokens).
 
 ## Citation
 
