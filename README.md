@@ -40,7 +40,7 @@ Multi-modal Large Langue Models (MLLMs) often process thousands of visual tokens
 
 ## Citation
 
-If you find it useful for your research and applications, please cite related papers/blogs using this BibTeX:
+If you find it useful for your research and applications, please cite related papers using this BibTeX:
 ```bibtex
 @article{yang2025beyond,
   title={Beyond Intermediate States: Explaining Visual Redundancy through Language},
